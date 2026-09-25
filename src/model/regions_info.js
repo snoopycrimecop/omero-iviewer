@@ -106,6 +106,9 @@ export default class RegionsInfo  {
      */
     selected_shapes = [];
 
+    sort_by = 'shapeText';
+    sort_ascending = true;
+
     /**
      * the balance of individual shape show vs hide toggles
      * a diffing method in a sense with zero equaling showing all,
